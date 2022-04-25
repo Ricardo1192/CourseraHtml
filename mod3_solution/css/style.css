@@ -1,0 +1,24 @@
+#header-nav {
+    background-color: #8ccde7;
+    border-radius: 0;
+    border: 0;
+    padding: 1%;
+    color: white;
+  }
+#main-content{
+    margin-top: 3%;
+    background-color: #e78c8c;
+}
+
+@media  only screen and (max-width: 768px){
+    #drop{
+        visibility: visible;
+    }
+    
+}
+@media  only screen and (min-width: 769px){
+    #drop{
+        visibility: hide;
+    }
+    
+}
